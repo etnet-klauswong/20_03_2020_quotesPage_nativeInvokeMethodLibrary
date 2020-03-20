@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">nativeInvokeFlutter</string>
+    <string name="textview">TextView</string>
+    <string name="QuotesPageKey">QuotesPageKey</string>
+    <string name="QuotesPageValue">QuotesPageValue</string>
+    <string name="TransmitToFlutter">TransmitToFlutter</string>
+</resources>
