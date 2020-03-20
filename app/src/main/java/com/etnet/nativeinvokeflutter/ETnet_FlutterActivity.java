@@ -61,7 +61,7 @@ public class ETnet_FlutterActivity extends FlutterActivity {
                     private BroadcastReceiver quotesPageReceiver;
                     @Override
                     public void onListen(Object arguments, EventChannel.EventSink events) {
-                        quotesPageReceiver = createQuotesPageChangeReceiver(events);
+//                        quotesPageReceiver = createQuotesPageChangeReceiver(events);
                         registerReceiver(
                                 quotesPageReceiver, new IntentFilter(Intent.ACTION_SEND));
                     }
@@ -93,15 +93,15 @@ public class ETnet_FlutterActivity extends FlutterActivity {
         }
     }
 
-    public BroadcastReceiver createQuotesPageChangeReceiver(final EventChannel.EventSink events) {
-        return new BroadcastReceiver() {
-            @Override
-            public void onReceive(Context context, Intent intent) {
-                if(Intent.AC)
-                }
-            }
-        };
-    }
+//    public BroadcastReceiver createQuotesPageChangeReceiver(final EventChannel.EventSink events) {
+//        return new BroadcastReceiver() {
+//            @Override
+//            public void onReceive(Context context, Intent intent) {
+//                if(Intent.AC)
+//                }
+//            }
+//        };
+//    }
 
     public static void transmitData(@NonNull Map transmitData){
         result.success(transmitData);
